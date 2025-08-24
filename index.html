@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil YouTube</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <!-- Navegação -->
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <button id="menu-btn">
+                <!-- Ícone do menu hamburguer -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                    <path d="M3 6H21M3 12H21M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                <div id="logo"></div>
+            </a>
+        </div>
+
+        <div class="nav-center">
+            <input type="text" placeholder="Pesquisar" id="search-input">
+            <button id="search-btn">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                    style="enable-background:new 0 0 100 100;" xml:space="preserve" width="24" height="24">
+                </svg>
+            </button>
+        </div>
+
+        <div class="nav-right">
+            <button id="video-btn"></button>
+            <button id="notification-btn"></button>
+            <button id="profile-btn"></button>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <!-- Coluna principal -->
+        <section class="video-section">
+            <iframe src="https://www.youtube.com/embed/IJtl8zIc8tw" title="YouTube video player" frameborder="0"
+                allowfullscreen></iframe>
+
+            <h1 class="video-title">
+                Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+            </h1>
+
+            <div class="video-actions">
+                <div class="channel-info">
+                    <div class="channel-logo"></div>
+                    <div class="channel-details">
+                        <p class="channel-name">DIO</p>
+                        <p class="channel-subscribers">83,3 mil inscritos</p>
+                    </div>
+                </div>
+                <button class="subscribe-btn">INSCREVA-SE</button>
+
+                <div class="action-icons">
+                    <div class="icon">
+                        <img src="assets/img/thumbs-up.svg" alt="Curtir">
+                        <p>2 mil</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/img/thumbs-down.svg" alt="Não gostei">
+                        <p>Não gostei</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/img/share-2.svg" alt="Compartilhar">
+                        <p>Compartilhar</p>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/img/download.svg" alt="Download">
+                        <p>Download</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="video-views-date">
+                28.418 visualizações • Transmitido ao vivo em 23 ago. de 2022
+            </p>
+
+            <p class="video-description">
+                Nesse vídeo, Rodrigo Alexandre, Product Designer e Professor Global de UX/UI na Digital Innovation One
+                Inc,
+                vai ensinar, de maneira descomplicada, o passo a passo de como prototipar uma landing page de portfólio
+                utilizando o Figma.
+            </p>
+        </section>
+
+        <!-- Coluna de vídeos recomendados -->
+        <aside class="recommended-videos">
+            <!-- Exemplo de vídeo recomendado -->
+            <div class="video-card">
+                <img src="assets/img/Thumb.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/image12.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">SCRUM Talks</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/image13.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Machine Learning Avançado - Fast Track</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/image14.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Global Skills #2 - Project Planning</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/image15.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Como aprender a programar Python do ZERO</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/Thumb.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Geração Tech Unimed - BH - Ciência de Dados</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/Thumb.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Scrum Talks</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/image12.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Machine Learning Avançado - Fast Track</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/image13.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Global Skills #2 - Project Planning</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <div class="video-card">
+                <img src="assets/img/image13.png" alt="Thumbnail">
+                <div class="video-info">
+                    <p class="video-title">Machine Learning Avançado - Fast Track</p>
+                    <p class="video-channel">DigitalInnovationOne</p>
+                    <p class="video-views">2,1 mil visualizações • 2 dias atrás</p>
+                </div>
+            </div>
+            <!-- Replicar mais cards conforme necessário -->
+        </aside>
+    </main>
+</body>
+
+</html>
